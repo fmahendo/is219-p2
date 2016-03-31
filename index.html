@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IS219 Slideshow</title>
+
+	<link rel="stylesheet" href="css/style.css"/>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+	<script src='js/gallery.js' type="text/javascript"></script>
+</head>
+<body>
+  <div id="photoBooth">
+    <p class="banner">IS219 Slide Show</p>
+    <div id="slideShow">
+      <div class="photoHolder">
+        <img class="thumbnail" width="500" height="300" id="photo" src="img/places/australia.jpg" alt="Gallery Image" style="margin:auto"/>
+      </div>
+      <img id="show_detail" class="moreIndicator rot90" src="img/more.png" alt="More Content"/>
+      <div id="nav">
+        <img id="prevPhoto" class='rot180' src="img/arrow.png" alt="Previous Photo"/>
+        <img id="nextPhoto" class="rot270" src="img/arrow.png" alt="Next Photo"/>
+      </div>
+      
+      <div class="details" id="details">
+        <p class="location">Location: <span id="loc_detail">Australia</span> </p>
+        <p class="description">Description: <span id="desc_detail">Loch Ard Gorge</span> </p>
+        <p class="date">Date: <span id="date_detail">01/01/2016</span> </p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
